@@ -2,15 +2,33 @@
   "name": "vishal-backend",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/vishalgoswami2007/youtube-clone#readme",
+  "bugs": {
+    "url": "https://github.com/vishalgoswami2007/youtube-clone/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalgoswami2007/youtube-clone.git"
+  },
   "license": "ISC",
-  "author": "",
-  "type": "module",
+  "author": "Vishal Goswami",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
   "dependencies": {
-    "nodemon": "^1.1.2",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.5.0",
+    "mongoose-aggregate-paginate-v2": "^1.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
     "prettier": "^3.8.3"
   }
 }
